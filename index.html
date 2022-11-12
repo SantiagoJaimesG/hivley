@@ -1,0 +1,43 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/vista1.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="contenedor1">
+		<div class="centro">
+			<div class="imglogo"><img src="img/abejalogo.png"></div>
+			<div class="lets"><h1>Let’s get buzzin’</h1></div>
+		</div>
+	</div>
+
+	<div class="contenedor2">
+		<div class="centro">
+			<div class="text">
+				<div class="text1"><h1>Welcome to the Hive!</h1></div>
+				<div class="text2"><h2>Let’s get you started.</h2></div>
+			</div>
+			<form action="contenedor.php" method="post">
+				<input type="text" name="nombre" placeholder="Enter your name">
+				<input type="text" name="email" placeholder="Enter your email">
+				<input type="password" name="contrasena" placeholder="Enter password">
+				<div class="register"><input type="submit" name="register" value="Register"></div>
+			</form>
+			<div class="sing"><h3>Already have an account? <span>Sign In</span></h3></div>
+		</div>
+	</div>
+
+	
+
+
+	<script>
+
+		$(".contenedor1 .centro .lets").click(function(){
+			$(".contenedor2").show();
+			$(".contenedor1").hide();
+		});
+	</script>
+</body>
+</html>

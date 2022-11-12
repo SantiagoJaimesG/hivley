@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+}
+
+.contenedor{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 120px;
+}
+
+.contenedor .header .noti{
+    margin-left: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenedor .header .buscador{
+    background-color: #FFA410;
+    display: flex;
+    padding: 18px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contenedor .header .buscador .lupa{
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+.contenedor .header .buscador .sear input{
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    width: 120%;
+    background-color: transparent;
+}
+
+.contenedor .featured{
+    padding-top: 25px;
+}
+
+.contenedor .featured .categoria{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor .featured .titulo{
+    color: #FFA410;
+    padding-left: 20px;
+}
+
+.contenedor .featured .todos{
+    color: white;
+    padding-right: 20;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenedor .featured .productos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.contenedor .featured .productos .producto .imgcal{
+    position: relative;
+}
+
+.contenedor .featured .productos .producto .imgcal .cal{
+    display: flex;
+    position: absolute;
+    background-color: #000000b8;
+    padding: 3px;
+    border-radius: 10px;
+    left: 50%;
+    top: 3%;
+}
+
+.contenedor .featured .productos .producto .imgcal .cal .num{
+    color: #FFA410;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+.contenedor .featured .productos .producto .nombrepro{
+    font-size: 14px;
+}
+
+.contenedor .graphics{
+    padding-top: 25px;
+}
+
+.contenedor .graphics .categoria{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor .graphics .titulo{
+    color: #FFA410;
+    padding-left: 20px;
+}
+
+.contenedor .graphics .todos{
+    color: white;
+    padding-right: 20;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenedor .graphics .productos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.contenedor .graphics .productos .producto{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contenedor .graphics .productos .producto .nombrepro{
+    font-size: 14px;
+}
+
+.contenedor .hobbies{
+    padding-top: 25px;
+}
+
+.contenedor .hobbies .categoria{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor .hobbies .titulo{
+    color: #FFA410;
+    padding-left: 20px;
+}
+
+.contenedor .hobbies .todos{
+    color: white;
+    padding-right: 20;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenedor .hobbies .productos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.contenedor .hobbies .productos .producto .nombrepro{
+    font-size: 14px;
+}
+
+.contenedor .show{
+    background-color: #FFA410;
+    color: black;
+    width: 80%;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.contenedor .footer{
+    background-color: #FFA410;
+    padding: 5px;
+    border-radius: 40px;
+    position: fixed;
+    bottom: 20px;
+    color: black;
+    width: 90%;
+    left: 10px;
+    right: 10px;
+}
+
+.contenedor .footer ul{
+    display: flex;
+    list-style: none;
+    padding-left: 15px;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.contenedor .footer ul li{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenedor .footer ul li .dash{
+    position: relative;
+}
+
+.contenedor .footer ul li .dash .dash2{
+    position: absolute;
+    top: 3px;
+    left: 25px;
+}
+
+
+
+.popup{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.popup .centro{
+    padding-top: 30%;
+}
+
+.popup .centro .text .text2{
+    color: #FFA410;
+    margin-top: 10px;
+}
+
+.popup .centro form{
+    display: inline-grid;
+    gap: 10px;
+    margin-top: 45px;
+}
+
+.popup .centro .form form input,
+.popup .centro .form form select{
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.popup .centro form .register input{
+    background-color: #FFA410;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.popup .form{
+    padding-bottom: 75px;
+}
+
+.popup .header .volver{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 380px) {
+    .contenedor{
+        display: none;
+    }
+}
